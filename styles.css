@@ -1,0 +1,250 @@
+html {height:100%}
+
+* {box-sizing: border-box;}
+
+body {
+    background-color: rgb(78, 55, 55);
+    color: whitesmoke;
+    margin: 0px;
+    width: 100%;   
+}
+
+/*
+===================================================
+        HEADER STYLING
+===================================================
+*/
+
+header {
+    background-color: black;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    font-family: 'Nerko One', cursive;
+}
+
+header a {
+    float: left;
+    height: 60px;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: rgb(126, 126, 126);
+    color: black;
+}
+
+header .signin {
+   float: right;
+   margin-top: 8px;
+}
+
+header input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+    border: none;
+    width:120px;
+}
+
+header .signin button {
+    float: right;
+    padding: 6px 10px;
+    margin: 4px 10px;
+    background-color: #555;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+=================================================
+        ADS STYLING
+=================================================
+*/
+
+.topad {
+    height: 100px;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: black;
+}
+
+.topad p {
+    display: block;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px;
+}
+
+.rightadbar {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.ads {
+    right: 20px;
+    width: 200px;
+    height: 33%;
+    background-color: black;
+    padding: 50px 10px;
+    margin: 20px;
+    font-family: 'Nerko One', cursive;
+}
+
+/*
+=================================================
+        MAIN BODY NAV
+=================================================
+*/
+
+.toolnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    margin: 20px auto;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+}
+
+.toolnav a {
+    height: 60px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.toolnav a:hover{
+    background-color: rgb(126, 126, 126);
+    color: black;
+}
+
+/*
+=================================================
+        MAIN BODY LINKS
+=================================================
+*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    border:solid 2px white;
+    transition: 500ms;
+    margin-bottom: 20px;
+}
+
+.flex-container a {
+    margin: 30px;
+    font-size: 20px;
+    height: 200px;
+    width: 25%;
+    transition: width 0.5s;
+    border-radius: 25px;
+    border:solid 2px white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container a:hover{ 
+    font-size: 22px;
+    width: 220px;
+}
+
+/*
+===========================================================
+        FOOTER STYLING
+===========================================================
+*/
+
+footer {
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1em;
+    font-family: 'Nerko One', cursive;
+}
+
+footer p {
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+.column {
+    width: 30%;
+    display: inline-block;
+}
+
+footer a{
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/*
+===============================================================
+        MEDIA QUERY
+===============================================================
+*/
+
+@media screen and (max-width: 650px) {   
+
+    .flex-container {
+        height: fit-content;
+    }
+
+    .flex-container a {
+        display: inline-flex;
+        align-items: center;
+        height: 150px;
+        width: 250px;
+        margin: 15px 30px;
+        transition: height 0.5s;
+    }
+
+    .flex-container h1 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .flex-container p {
+        display: none;
+    }
+
+    .flex-container a:hover {
+        height: 200px;
+        width: 300px;
+    }
+
+    .flex-container a:hover p {
+        display: block;
+    }
+
+    .rightadbar {
+        width: 200px;
+        margin-right: 40px;
+    }
+
+    .ads p {
+        display: block;
+        text-align: center;
+        padding-top: 75px;
+    }
+}
