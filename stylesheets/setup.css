@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@700&family=Nerko+One&display=swap");
+
+html {height:100%}
+
+* {box-sizing: border-box;}
+
+body {
+    background-color: rgb(78, 55, 55);
+    color: whitesmoke;
+    margin: 0px;
+    width: 100%;   
+}
+
+/*
+===================================================
+        HEADER STYLING
+===================================================
+*/
+
+header {
+    background-color: black;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    font-family: 'Nerko One', cursive;
+}
+
+header a {
+    float: left;
+    height: 60px;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: rgb(126, 126, 126);
+    color: black;
+}
+
+header .signin {
+   float: right;
+   margin-top: 8px;
+}
+
+header input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+    border: none;
+    width:120px;
+}
+
+header .signin button {
+    float: right;
+    padding: 6px 10px;
+    margin: 4px 10px;
+    background-color: #555;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+===========================================================
+        FOOTER STYLING
+===========================================================
+*/
+
+footer {
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1em;
+    font-family: 'Nerko One', cursive;
+}
+
+footer p {
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+.column {
+    width: 30%;
+    display: inline-block;
+}
+
+footer a{
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
