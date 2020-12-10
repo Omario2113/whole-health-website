@@ -1,46 +1,5 @@
 /*
 =================================================
-        MAIN BODY NAV
-=================================================
-
-.toolnav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: black;
-    margin: 20px auto;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    font-family: 'Nerko One', cursive;
-}
-
-.toolnav li {
-    list-style-type: none;
-    padding-top: 20px;
-}
-
-.toolnav a {
-    height: 100%;
-    padding: 20px 30px 15px 30px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-}
-
-.toolnav a:hover {
-    background-color: rgb(126, 126, 126);
-    color: black;
-    text-decoration: underline;
-} 
-.toolnav a:active {
-    text-decoration: underline;
-    color: blue;
-}
-*/
-
-/*
-=================================================
         MAIN PAGE CONTENT
 =================================================
 */
@@ -79,7 +38,7 @@
 
 /*
 ===============================================================
-        MEDIA QUERIES
+       MAIN PAGE MEDIA QUERIES
 ===============================================================
 */
 
@@ -116,11 +75,6 @@
 
     .flex-container a:hover p {
         display: block;
-    }
-
-    .rightadbar {
-        width: 200px;
-        margin-right: 40px;
     }
 
     .ads p {
