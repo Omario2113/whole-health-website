@@ -1,45 +1,7 @@
 /*
 =================================================
-        ADS STYLING
-=================================================
-*/
-
-.topad {
-    height: 100px;
-    width: 100%;
-    margin: 10px 0px;
-    background-color: black;
-}
-
-.topad p {
-    display: block;
-    text-align: center;
-    padding: 40px 0px;
-    margin: 0px;
-}
-
-.rightadbar {
-    float: right;
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-}
-
-.ads {
-    right: 20px;
-    width: 200px;
-    height: 33%;
-    background-color: black;
-    padding: 50px 10px;
-    margin: 20px;
-    font-family: 'Nerko One', cursive;
-}
-
-/*
-=================================================
         MAIN BODY NAV
 =================================================
-*/
 
 .toolnav {
     display: flex;
@@ -66,20 +28,20 @@
     color: white;
 }
 
-.toolnav a:hover{
+.toolnav a:hover {
     background-color: rgb(126, 126, 126);
     color: black;
-    margin-left:25px;
     text-decoration: underline;
 } 
-.toolnav a:active{
+.toolnav a:active {
     text-decoration: underline;
     color: blue;
 }
+*/
 
 /*
 =================================================
-        MAIN BODY LINKS
+        MAIN PAGE CONTENT
 =================================================
 */
 
@@ -87,12 +49,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: black;
     text-align: center;
     justify-content: center;
-    border:solid 2px white;
     transition: 500ms;
-    margin-bottom: 20px;
 }
 
 .flex-container a {
@@ -114,8 +73,8 @@
     width: 25%;
     text-decoration: underline;
 }
-.flex-container h1, .flex-container p{
-background-color: rgba(88, 87, 87, 0.5);
+.flex-container h1, .flex-container p {
+    background-color: rgba(88, 87, 87, 0.5);
 }
 
 /*
