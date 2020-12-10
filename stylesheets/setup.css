@@ -7,6 +7,8 @@ html {height:100%}
 body {
     /* background-color: rgb(78, 55, 55); */
     background-image: url('pexels-photo-1139541.jpg');
+    
+    background-size: cover;
     color: whitesmoke;
     margin: 0px;
     width: 100%;   
