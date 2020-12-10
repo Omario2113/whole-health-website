@@ -69,7 +69,13 @@
 .toolnav a:hover{
     background-color: rgb(126, 126, 126);
     color: black;
+    margin-left:25px;
+    text-decoration: underline;
 } 
+.toolnav a:active{
+    text-decoration: underline;
+    color: blue;
+}
 
 /*
 =================================================
@@ -93,7 +99,7 @@
     margin: 30px;
     font-size: 20px;
     height: 200px;
-    width: 25%;
+    width: 230px;
     transition: width 0.5s;
     border-radius: 25px;
     border:solid 2px white;
@@ -105,7 +111,11 @@
 
 .flex-container a:hover{ 
     font-size: 22px;
-    width: 230px;
+    width: 25%;
+    text-decoration: underline;
+}
+.flex-container h1, .flex-container p{
+background-color: rgba(88, 87, 87, 0.5);
 }
 
 /*

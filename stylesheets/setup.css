@@ -37,6 +37,12 @@ header a {
 header a:hover {
     background-color: rgb(126, 126, 126);
     color: black;
+    margin-left:25px;
+    text-decoration: underline;
+}
+header a:active{
+    text-decoration: underline;
+    color: blue;
 }
 
 header .signin {
@@ -95,3 +101,11 @@ footer a{
     text-decoration: none;
     color: white;
 } 
+footer a:hover{
+    background-color: rgb(88, 87, 87);
+    margin-left: 25px;
+}
+footer a:active{
+    text-decoration: underline;
+    color: blue;
+}
