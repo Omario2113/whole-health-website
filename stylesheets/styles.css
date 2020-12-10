@@ -42,12 +42,6 @@
 ===============================================================
 */
 
-@media screen and (max-width: 1050px) {
-    .flex-container a {
-        width: 35%;
-    }
-}
-
 @media screen and (max-width: 800px) {
 
     .flex-container a {
