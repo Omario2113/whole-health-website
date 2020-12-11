@@ -32,6 +32,7 @@
     width: 25%;
     text-decoration: underline;
 }
+
 .flex-container h1, .flex-container p {
     background-color: rgba(88, 87, 87, 0.5);
 }
