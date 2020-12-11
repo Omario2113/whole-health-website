@@ -4,39 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Personal Struggles Problem Solving Site">
     <title>Blahblah</title>
-    <meta name="descrition" content="Blahblah is an approach to problem solving personal struggles.">
     <link rel="stylesheet" href="/stylesheets/setup.css">
     <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
 <body>
 
+<!--
+    ========================================================================
+         PAGE HEADER 
+    ========================================================================
+-->
+
     <header>
+
+        <div id="link-box">
+            <div id="sticky-links">
+                <a href="main.html">HOME</a>
+                <a href="login.html">REGISTER</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="services.html">SERVICES</a>
+            </div>
+        </div>
+        
         <a href="main.html">HOME</a>
         <a href="login.html">REGISTER</a>
-        <a href="about.html">ABOUT</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="services.html">SERVICES</a>
         <div class="signin">
             <form action="/action_page.php">
                 <input type="text" placeholder="Username" name="username">
                 <input type="text" placeholder="Password" name="psw">
-                <button type="submit">Login</button>
+                <button type="submit" style="font-family: 'Nerko One', cursive">Login</button>
             </form>
-
         </div>
     </header>
 
-    <div class="topad">
-        <p>AD GOES HERE</p>
-    </div>
+<!--
+    ========================================================================
+         ADS
+    ========================================================================
+-->
 
-    <nav class="toolnav">
-        <li><a href="main.html">CATEGORY</a></li>
-        <li><a href="services.html">SERVICES</a></li>
-        <li><a href="login.html">CHAT NOW</a></li>
-        <li><a href="contact.html">CONTACT US</a></li>
-
-    </nav>
+    <p class="topad">AD GOES HERE</p>
 
     <div class="rightadbar">
         <div class="ads">
@@ -50,9 +64,15 @@
         </div>
     </div>
 
-    <h1>Hotlines</h1>
-    <!-- style and make adjustments -->
-    <main>
+<!--
+    ========================================================================
+         MAIN CONTENT
+    ========================================================================
+-->
+
+    <div class="content">
+        <h1>Hotlines</h1>
+        <!-- style and make adjustments -->
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium, dignissimos sunt iste nam impedit
             quam mollitia, vero natus reiciendis, earum minima et ad dolore aut! Illum ut odit assumenda?Lorem ipsum
@@ -139,19 +159,23 @@
             ut
             odit assumenda?
         </p>
+    </div>
 
-
-    </main>
+<!-- 
+    ========================================================================
+         PAGE FOOTER
+    ========================================================================
+-->
 
     <footer>
         <div class="column">
             <a href="main.html">Home</a>
-            <a href="about.html">Our Mission</a>
-            <a href="about.html">About Us</a>
+            <a href="#">Our Mission</a>
+            <a href="#">About Us</a>
             <a href="contact.html">Contact Us</a>
         </div>
         <div class="column">
-            <a href="#">Hotlines</a>
+            <a href="hotline.html">Hotlines</a>
             <a href="local.html">Local Help</a>
             <a href="therapy.html">Therapists</a>
             <a href="provider.html">Providers</a>
@@ -164,9 +188,6 @@
         </div>
         <p>Troy, N.Y. 12180 </p>
     </footer>
-
-
-
 
 </body>
 
