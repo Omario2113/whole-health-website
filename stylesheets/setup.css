@@ -134,7 +134,7 @@ header .signin button {
 
 .content {
     grid-area: cont;
-    background-color: black;
+    /* background-color: black; */
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
