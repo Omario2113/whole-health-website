@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@700&family=Nerko+One&display=swap");
 
-html {height:100%}
-
+html {height:100%}t
 * {box-sizing: border-box;}
 
 body {
     background-color: rgb(78, 55, 55);
     background-image: url(/stylesheets/sunset.jpg);
     background-size: cover;
-    
+    /* test */
     color: whitesmoke;
     margin: 0px;
     width: 100%;
@@ -39,7 +38,7 @@ header {
 
 header a {
     float: left;
-    height: 60px;
+    /* height: 30px; */
     padding: 15px;
     font-size: 15px;
     color: white;
@@ -197,6 +196,9 @@ footer a:active {
 
 @media screen and (max-width: 1050px) {
     .flex-container a {
+        width: 35%;
+    }
+    .donate a {
         width: 35%;
     }
 }
