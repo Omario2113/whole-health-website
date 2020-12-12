@@ -8,16 +8,16 @@ body {
     background-color: rgb(78, 55, 55);
     background-image: url(/stylesheets/sunset.jpg);
     background-size: cover;
-    
+
     color: whitesmoke;
     margin: 0px;
     width: 100%;
     display: grid;
-    grid-template-areas: "head head"
-                         "tad tad"
-                         "cont rad"
-                         "foot foot";
-    grid-template-columns: 75% 25%;
+    grid-template-areas: "head"
+                         "title"
+                         "cont"
+                         "foot";
+    grid-template-columns: 100%;
     grid-template-rows: 60px 100px auto auto;
 }
 
@@ -29,7 +29,7 @@ body {
 
 header {
     grid-area: head;
-    background-color: black;
+    background-color: rgb(78, 55, 55);
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
@@ -110,14 +110,14 @@ header .signin button {
 */
 
 .topad {
-    grid-area: tad;
+    grid-area: title;
     margin: 10px 0px;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
     padding: 40px 0px;
 }
 
-.rightadbar {
+/* .rightadbar {
     grid-area: rad;
     display: flex;
     flex-direction: column;
@@ -131,11 +131,11 @@ header .signin button {
     padding: 50px 10px;
     margin: 20px;
     font-family: 'Nerko One', cursive;
-}
+} */
 
 .content {
     grid-area: cont;
-    background-color: black;
+    /*background-color: black;*/
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
@@ -149,7 +149,7 @@ header .signin button {
 
 footer {
     grid-area: foot;
-    background-color: black;
+    background-color: rgb(78, 55, 55);
     text-align: center;
     padding-top: 20px;
     font-size: 1em;
