@@ -36,7 +36,7 @@ header {
 
 header a {
     float: left;
-    height: 60px;
+    /* height: 30px; */
     padding: 15px;
     font-size: 15px;
     color: white;
@@ -190,6 +190,9 @@ footer a:active {
 
 @media screen and (max-width: 1050px) {
     .flex-container a {
+        width: 35%;
+    }
+    .donate a {
         width: 35%;
     }
 }
