@@ -4,7 +4,7 @@
 =================================================
 */
 
-.flex-container {
+.flex-container, .donate {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -36,7 +36,65 @@
 .flex-container h1, .flex-container p {
     background-color: rgba(88, 87, 87, 0.5);
 }
+.donate{
+    margin: 30px;
+    font-size: 20px;
+    height: 100px;
+    width: 750px;
+    transition: width 0.5s;
+    border-radius: 25px;
+    border:solid 2px white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 95px;
+}
+.donate a {
+    font-size: 20px;
+    height: 100px;
+    width: 750px;
+    border-radius: 25px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
 
+}
+.donate a:hover{ 
+    font-size: 22px;
+    text-decoration: underline;
+}
+.p{
+    font-size: 20px;
+    text-align: center;
+}
+.p a:link,a:visited{
+    text-decoration: none;
+    color:skyblue;
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.cont{
+   padding-top: 10px;
+}
+.text{
+    margin: 60px;
+}
+.imgr{
+border-radius: 35%; 
+filter: saturate(5);
+ float: right;
+  margin-right:80px; 
+  position: relative; 
+  z-index: -2;
+   margin-top: 10px;}
 /*
 ===============================================================
        MAIN PAGE MEDIA QUERIES
@@ -77,4 +135,38 @@
         text-align: center;
         padding-top: 75px;
     }
+    .donate{
+        widows: 35%;
+        height: 150px;
+        width: 250px;
+        margin: 15%;
+    
+    }
+    .donate a{
+        
+            display: inline-flex;
+            align-items: center;
+            height: 150px;
+            width: 250px;
+            /* margin: 15px 30px; */
+            /* transition: height 0.5s; */
+    }
+    .donate h1{
+        font-size: 30px;
+        margin-left: 20px;
+    } 
+    .text {
+        margin: 0%;
+    }
+    .imgr{
+        float: none;
+        margin-right:0px;
+        margin-top: 10px; 
+        height: 50%;
+        width: 50%;
+    }
+    .fa {
+        width: 25px;
+        margin: 5px 2px;
+      }
 }
