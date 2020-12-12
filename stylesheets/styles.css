@@ -70,9 +70,9 @@
     font-size: 20px;
     text-align: center;
 }
-.p a:link,a:visited{
+.p a:link, .p a:visited{
     text-decoration: none;
-    color:skyblue;
+    color:rgb(9, 44, 58);
 }
 .fa {
   font-size: 30px;
@@ -80,6 +80,7 @@
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  color: aliceblue;
 }
 .cont{
    padding-top: 10px;
