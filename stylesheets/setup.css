@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@700&family=Nerko+One&display=swap");
 
-html {height:100%}
-
+html {height:100%}t
 * {box-sizing: border-box;}
 
 body {
     background-color: rgb(78, 55, 55);
     background-image: url(/stylesheets/sunset.jpg);
     background-size: cover;
-    
     color: whitesmoke;
     margin: 0px;
     width: 100%;
@@ -28,8 +26,11 @@ body {
 */
 
 header {
+    background-color: rgb(75, 108, 119);
+    height: 60px;
     grid-area: head;
-    background-color: black;
+
+    background-color: rgb(75, 108, 119);
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
@@ -37,7 +38,7 @@ header {
 
 header a {
     float: left;
-    height: 60px;
+    height: 30px;
     padding: 15px;
     font-size: 15px;
     color: white;
@@ -49,6 +50,7 @@ header a:hover {
     color: black;
     text-decoration: underline;
 }
+
 header a:active {
     text-decoration: underline;
     color: blue;
@@ -126,20 +128,23 @@ header .signin button {
 
 .ads {
     width: 80%;
-    height: 300px;
-    /* background-color: black; */
+    height: 30%;
+    background-color: rgb(170, 190, 202);;
     padding: 50px 10px;
-    margin: 20px;
+    margin: 20px auto;
     font-family: 'Nerko One', cursive;
 }
 
 .content {
     grid-area: cont;
-    /* background-color: black; */
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
 }
+
+
+
+
 
 /*
 ===========================================================
@@ -149,7 +154,8 @@ header .signin button {
 
 footer {
     grid-area: foot;
-    /* background-color: black; */
+   
+    background-color: rgb(75, 108, 119);
     text-align: center;
     padding-top: 20px;
     font-size: 1em;
@@ -157,7 +163,7 @@ footer {
 }
 
 footer p {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
 }
 
@@ -168,7 +174,7 @@ footer p {
 
 footer a {
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: white;
 } 
@@ -191,6 +197,9 @@ footer a:active {
 
 @media screen and (max-width: 1050px) {
     .flex-container a {
+        width: 35%;
+    }
+    #donate a {
         width: 35%;
     }
 }
