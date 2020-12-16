@@ -126,7 +126,7 @@ header .signin button {
 .ads {
     width: 80%;
     height: 30%;
-    background-color: background-color: rgb(170, 190, 202);;
+    background-color: rgb(170, 190, 202);;
     padding: 50px 10px;
     margin: 20px auto;
     font-family: 'Nerko One', cursive;
@@ -189,6 +189,9 @@ footer a:active {
 
 @media screen and (max-width: 1050px) {
     .flex-container a {
+        width: 35%;
+    }
+    #donate a {
         width: 35%;
     }
 }
