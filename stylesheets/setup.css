@@ -11,11 +11,11 @@ body {
     margin: 0px;
     width: 100%;
     display: grid;
-    grid-template-areas: "head"
-                         "title"
-                         "cont"
-                         "foot";
-    grid-template-columns: 100%;
+    grid-template-areas: "head head"
+                         "tad tad"
+                         "cont rad"
+                         "foot foot";
+    grid-template-columns: 75% 25%;
     grid-template-rows: 60px 100px auto auto;
 }
 
@@ -27,7 +27,7 @@ body {
 
 header {
     grid-area: head;
-    background-color: rgb(78, 55, 55);
+    background-color: rgb(75, 108, 119);
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
@@ -35,7 +35,7 @@ header {
 
 header a {
     float: left;
-    /* height: 30px; */
+    height: 30px;
     padding: 15px;
     font-size: 15px;
     color: white;
@@ -47,6 +47,7 @@ header a:hover {
     color: black;
     text-decoration: underline;
 }
+
 header a:active {
     text-decoration: underline;
     color: blue;
@@ -108,14 +109,14 @@ header .signin button {
 */
 
 .topad {
-    grid-area: title;
+    grid-area: tad;
     margin: 10px 0px;
     /* background-color: black; */
     text-align: center;
     padding: 40px 0px;
 }
 
-/* .rightadbar {
+.rightadbar {
     grid-area: rad;
     display: flex;
     flex-direction: column;
@@ -124,16 +125,15 @@ header .signin button {
 
 .ads {
     width: 80%;
-    height: 300px;
-    background-color: black;
+    height: 30%;
+    background-color: background-color: rgb(170, 190, 202);;
     padding: 50px 10px;
-    margin: 20px;
+    margin: 20px auto;
     font-family: 'Nerko One', cursive;
-} */
+}
 
 .content {
     grid-area: cont;
-    /*background-color: black;*/
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
@@ -147,7 +147,7 @@ header .signin button {
 
 footer {
     grid-area: foot;
-    background-color: rgb(78, 55, 55);
+    background-color: rgb(75, 108, 119);
     text-align: center;
     padding-top: 20px;
     font-size: 1em;
@@ -155,7 +155,7 @@ footer {
 }
 
 footer p {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
 }
 
@@ -166,7 +166,7 @@ footer p {
 
 footer a {
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-decoration: none;
     color: white;
 } 
@@ -189,9 +189,6 @@ footer a:active {
 
 @media screen and (max-width: 1050px) {
     .flex-container a {
-        width: 35%;
-    }
-    .donate a {
         width: 35%;
     }
 }

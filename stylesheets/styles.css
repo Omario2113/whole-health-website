@@ -4,7 +4,7 @@
 =================================================
 */
 
-.flex-container, .donate {
+.flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,51 +29,68 @@
 
 .flex-container a:hover{ 
     font-size: 22px;
-    width: 25%;
+    width: 250px;
     text-decoration: underline;
 }
 
 .flex-container h1, .flex-container p {
     background-color: rgba(88, 87, 87, 0.5);
 }
-.donate{
-    margin: 30px;
-    font-size: 20px;
-    height: 100px;
-    width: 750px;
-    transition: width 0.5s;
-    border-radius: 25px;
-    border:solid 2px white;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    margin-left: 95px;
-}
-.donate a {
-    font-size: 20px;
-    height: 100px;
-    width: 750px;
-    border-radius: 25px;
-    background-size:cover;
-    background-repeat: no-repeat;
-    color: white;
-    text-decoration: none;
 
-}
-.donate a:hover{ 
-    font-size: 22px;
-    text-decoration: underline;
-}
-.p{
-    font-size: 20px;
+/*
+=================================================
+        CONTACT PAGE CONTENT
+=================================================
+*/
+
+#donate {
+    height: 100px;
+    width: 80%;
     text-align: center;
 }
-.p a:link, .p a:visited{
+
+#donate:hover { 
+    width: 85%;
+}
+
+.pagebreak {
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+
+.p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.p a:link {
     text-decoration: none;
     color:rgb(9, 44, 58);
 }
+
+.questions, .imgr {
+    width: 40%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.questions label {
+    float: left;
+}
+
+.questions input[type=text], select, textarea {
+    width: 70%;
+    float: right;
+}
+
+.social {
+    padding-top: 10px;
+    background-color: black;
+    height: 40px;
+ }
+
 .fa {
   font-size: 30px;
   width: 50px;
@@ -82,20 +99,7 @@
   margin: 5px 2px;
   color: aliceblue;
 }
-.cont{
-   padding-top: 10px;
-}
-.text{
-    margin: 60px;
-}
-.imgr{
-border-radius: 35%; 
-filter: saturate(5);
- float: right;
-  margin-right:80px; 
-  position: relative; 
-  z-index: -2;
-   margin-top: 10px;}
+
 /*
 ===============================================================
        MAIN PAGE MEDIA QUERIES
@@ -136,36 +140,22 @@ filter: saturate(5);
         text-align: center;
         padding-top: 75px;
     }
-    .donate{
-        widows: 35%;
+
+/*
+===============================================================
+       CONTACT PAGE MEDIA QUERIES
+===============================================================
+*/
+
+    .donate {
         height: 150px;
-        width: 250px;
-        margin: 15%;
-    
     }
-    .donate a{
-        
-            display: inline-flex;
-            align-items: center;
-            height: 150px;
-            width: 250px;
-            /* margin: 15px 30px; */
-            /* transition: height 0.5s; */
-    }
-    .donate h1{
+
+    .donate h1 {
         font-size: 30px;
         margin-left: 20px;
-    } 
-    .text {
-        margin: 0%;
     }
-    .imgr{
-        float: none;
-        margin-right:0px;
-        margin-top: 10px; 
-        height: 50%;
-        width: 50%;
-    }
+
     .fa {
         width: 25px;
         margin: 5px 2px;
