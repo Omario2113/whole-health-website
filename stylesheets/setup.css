@@ -115,7 +115,7 @@ header .signin button {
     padding: 40px 0px;
 }
 
-/* .rightadbar {
+.rightadbar {
     grid-area: rad;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ header .signin button {
     padding: 50px 10px;
     margin: 20px;
     font-family: 'Nerko One', cursive;
-} */
+}
 
 .content {
     grid-area: cont;
