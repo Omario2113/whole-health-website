@@ -112,7 +112,7 @@ header .signin button {
 .topad {
     grid-area: tad;
     margin: 10px 0px;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
     padding: 40px 0px;
 }
@@ -127,7 +127,7 @@ header .signin button {
 .ads {
     width: 80%;
     height: 300px;
-    background-color: black;
+    /* background-color: black; */
     padding: 50px 10px;
     margin: 20px;
     font-family: 'Nerko One', cursive;
@@ -135,7 +135,7 @@ header .signin button {
 
 .content {
     grid-area: cont;
-    background-color: black;
+    /* background-color: black; */
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
@@ -149,7 +149,7 @@ header .signin button {
 
 footer {
     grid-area: foot;
-    background-color: black;
+    /* background-color: black; */
     text-align: center;
     padding-top: 20px;
     font-size: 1em;
