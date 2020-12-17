@@ -145,20 +145,13 @@
 }
 
 .questions {
-    width: 40%;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 75px;
+    width: 80%;
     margin: 20px;
     border-radius: 10px;
 }
-
-.questions label {
-    float: left;
-}
-
-.questions input[type=text], select, textarea {
-    width: 70%;
-    float: right;
-}
-
 .social {
     padding-top: 10px;
     background-color: black;
@@ -174,17 +167,9 @@
   color: aliceblue;
 }
 iframe{
-    padding-left: 4em;
+    width: 100%;
     margin-bottom: 2em;
     padding-top: 2em;
-}
-.imgr{
-    position: absolute;
-    right: 360px;
-    top: 1250px;
-    z-index: -1;
-    border-radius: 10px;
-    width: 35%;
 }
 
 /*
@@ -193,7 +178,7 @@ iframe{
 ===============================================================
 */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
     .flex-container a {
         display: inline-flex;
@@ -247,38 +232,10 @@ iframe{
         width: 25px;
         margin: 5px 2px;
       }
-}
-@media screen and ( max-width:1200px){
-          
-
-    iframe{
-      padding-left: 80px;
-      margin-bottom: 10px;
-      width: 80%;
-      height: 400px;
-  }
-  .imgr{
-      left: 25em;
-      top: 1500px;
-      height: 200px;
-      width: 25%;
-  
-  }
-}
-
-
-
-@media screen and (max-width:700px){
-    iframe{
-        padding-left: 80px;
-        margin-bottom: 10px;
-        width: 65%;
-    }
-    .imgr{
-        left: 16em;
-        top: 1700px;
-        width: 30%;
-        padding-bottom: 60px;
     
+    .questions {
+        padding-right: 5px;
+        padding-left: 10px;
     }
+    
 }
