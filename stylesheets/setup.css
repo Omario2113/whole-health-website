@@ -114,7 +114,6 @@ header .signin button {
 .topad {
     grid-area: tad;
     margin: 10px 0px;
-    /* background-color: black; */
     text-align: center;
     padding: 40px 0px;
 }
@@ -141,10 +140,6 @@ header .signin button {
     border:solid 2px white;
     margin-bottom: 20px;
 }
-
-
-
-
 
 /*
 ===========================================================
