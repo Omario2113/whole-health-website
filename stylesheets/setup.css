@@ -33,6 +33,7 @@ header {
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
+    z-index: 1;
 }
 
 header a {
@@ -112,10 +113,10 @@ header .signin button {
 
 .topad {
     grid-area: tad;
-    margin: 10px 0px;
-    /* background-color: black; */
+    margin: -15px 0px;
     text-align: center;
-    padding: 40px 0px;
+    font-size: 100px;
+    color: rgba(11, 108, 236, 0.658);
 }
 
 .rightadbar {
@@ -123,15 +124,6 @@ header .signin button {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-}
-
-.ads {
-    width: 80%;
-    height: 30%;
-    background-color: rgb(170, 190, 202);;
-    padding: 50px 10px;
-    margin: 20px auto;
-    font-family: 'Nerko One', cursive;
 }
 
 .content {
