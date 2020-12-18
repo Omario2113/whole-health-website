@@ -153,10 +153,7 @@ header .signin button {
 
 footer {
     grid-area: foot;
-<<<<<<< HEAD
-=======
    
->>>>>>> c6478a4b0ea67264321dd61ac6465ae6f777b789
     background-color: rgb(75, 108, 119);
     text-align: center;
     padding-top: 20px;
