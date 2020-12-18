@@ -29,7 +29,6 @@ header {
     background-color: rgb(75, 108, 119);
     height: 60px;
     grid-area: head;
-
     background-color: rgb(75, 108, 119);
     position: sticky;
     top: 0;
