@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@700&family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
 
 html {height:100%}t
 * {box-sizing: border-box;}
@@ -33,6 +34,7 @@ header {
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
+    z-index: 1;
 }
 
 header a {
@@ -114,7 +116,8 @@ header .signin button {
     grid-area: tad;
     margin: 10px 0px;
     text-align: center;
-    padding: 40px 0px;
+    font-size: 100px;
+    color: rgba(11, 108, 236, 0.658);
 }
 
 .rightadbar {
@@ -122,15 +125,6 @@ header .signin button {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-}
-
-.ads {
-    width: 80%;
-    height: 30%;
-    background-color: rgb(170, 190, 202);;
-    padding: 50px 10px;
-    margin: 20px auto;
-    font-family: 'Nerko One', cursive;
 }
 
 .content {
@@ -148,7 +142,6 @@ header .signin button {
 
 footer {
     grid-area: foot;
-   
     background-color: rgb(75, 108, 119);
     text-align: center;
     padding-top: 20px;
