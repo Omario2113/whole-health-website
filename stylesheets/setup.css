@@ -33,6 +33,7 @@ header {
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
+    z-index: 1;
 }
 
 header a {
@@ -125,21 +126,11 @@ header .signin button {
     margin-top: 30px;
 }
 
-/* .ads {
-    width: 80%;
-    height: 30%;
-    background-color: rgb(170, 190, 202);;
-    padding: 50px 10px;
-    margin: 20px auto;
-    font-family: 'Nerko One', cursive;
-} */
-
 .content {
     grid-area: cont;
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
-    z-index: -1;
 }
 
 
