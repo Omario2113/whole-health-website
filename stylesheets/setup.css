@@ -112,10 +112,10 @@ header .signin button {
 
 .topad {
     grid-area: tad;
-    margin: 10px 0px;
-    /* background-color: black; */
+    margin: -15px 0px;
     text-align: center;
-    padding: 40px 0px;
+    font-size: 100px;
+    color: rgba(11, 108, 236, 0.658);
 }
 
 .rightadbar {
