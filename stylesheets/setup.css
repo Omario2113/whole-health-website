@@ -125,14 +125,14 @@ header .signin button {
     margin-top: 30px;
 }
 
-.ads {
+/* .ads {
     width: 80%;
     height: 30%;
     background-color: rgb(170, 190, 202);;
     padding: 50px 10px;
     margin: 20px auto;
     font-family: 'Nerko One', cursive;
-}
+} */
 
 .content {
     grid-area: cont;
