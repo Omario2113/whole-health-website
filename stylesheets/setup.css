@@ -123,7 +123,6 @@ header .signin button {
     text-align: center;
     font-size: 100px;
     font-family: 'Monofett', cursive;
-    color: rgba(11, 108, 236, 0.658);
 }
 
 /*-------  Sidebar Ads --------*/
@@ -173,7 +172,7 @@ header .signin button {
     justify-content: center;
     border:solid 2px white;
     margin-bottom: 20px;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
 	animation: bounce-in-left 1.1s both;
 }
 
