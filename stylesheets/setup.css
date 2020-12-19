@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@700&family=Nerko+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
 
-html {height:100%}t
+html {height:100%}
 * {box-sizing: border-box;}
 
 body {
@@ -13,11 +13,11 @@ body {
     width: 100%;
     display: grid;
     grid-template-areas: "head head"
-                         "tad tad"
+                         "logo logo"
                          "cont rad"
                          "foot foot";
     grid-template-columns: 75% 25%;
-    grid-template-rows: 60px 100px auto auto;
+    grid-template-rows: 60px 150px auto auto;
 }
 
 /*
@@ -28,9 +28,7 @@ body {
 
 header {
     background-color: rgb(75, 108, 119);
-    height: 60px;
     grid-area: head;
-    background-color: rgb(75, 108, 119);
     position: sticky;
     top: 0;
     font-family: 'Nerko One', cursive;
@@ -39,8 +37,8 @@ header {
 
 header a {
     float: left;
-    height: 30px;
-    padding: 15px;
+    height: 60px;
+    padding: 22px 15px;
     font-size: 15px;
     color: white;
     text-decoration: none;
@@ -49,31 +47,29 @@ header a {
 header a:hover {
     background-color: rgb(126, 126, 126);
     color: black;
-    text-decoration: underline;
 }
 
 header a:active {
-    text-decoration: underline;
     color: blue;
 }
 
 header .signin {
    float: right;
-   margin-top: 8px;
+   height: 60px;
 }
 
 header input[type=text] {
     padding: 6px;
-    margin-top: 8px;
+    margin: 17px 4px;
     font-size: 12px;
     border: none;
-    width:120px;
+    width: 120px;
 }
 
 header .signin button {
     float: right;
     padding: 6px 10px;
-    margin: 4px 10px;
+    margin: 13px 10px 13px 6px;
     background-color: #555;
     color: white;
     font-size: 17px;
@@ -113,11 +109,15 @@ header .signin button {
 */
 
 .topad {
-    grid-area: tad;
-    margin: 10px 0px;
+    grid-area: logo;
+    margin: 0px;
+    padding: 25px;
     text-align: center;
     font-size: 100px;
+    font-family: 'Monofett', cursive;
     color: rgba(11, 108, 236, 0.658);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .rightadbar {
@@ -125,6 +125,37 @@ header .signin button {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    animation: tilt-in-fwd-tl 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes tilt-in-fwd-tl {
+    0% {
+      -webkit-transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+              transform: rotateY(-20deg) rotateX(35deg) translate(-300px, -300px) skew(35deg, -10deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+              transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
+      opacity: 1;
+    }
+}
+
+.ads {
+    background-color: rgb(170, 190, 202);
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Nerko One', cursive;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ads h1, .ads h2{
+    margin: 75px auto 25px auto;
+    background-color: rgba(0, 0, 0, 0.651);
 }
 
 .content {
